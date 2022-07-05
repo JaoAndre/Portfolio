@@ -1,14 +1,15 @@
 <template>
   <main>
-    <Header title="John Doe" />
+    <Header title="Home" />
+
+    <img src="~/assets/resources/9Gtr1ZqOqc.jpg" alt="Image" />
 
     <div class="text-block">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in est quis
       mauris tempus sollicitudin eu sed metus. Curabitur nec efficitur felis,
       vel ultrices diam. Quisque ultrices, eros sit amet ultrices euismod, nulla
       lorem blandit mauris, mattis scelerisque ligula tortor ullamcorper ligula.
-      Fusce finibus leo dui, ac dapibus est ultrices a. Aliquam maximus, erat at
-      molestie porttitor.
+      Fusce finibus leo dui, ac dapibus est ultrices a.
     </div>
 
     <div class="text-block">

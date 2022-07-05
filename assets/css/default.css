@@ -15,6 +15,11 @@ html {
     overflow-x: hidden;
 }
 
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .text-block {
     margin-block: 30px;
     text-align: justify;

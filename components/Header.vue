@@ -18,6 +18,7 @@ export default {
 
 <style scoped>
 header {
+  width: 800px;
   margin: 100px 0;
 }
 

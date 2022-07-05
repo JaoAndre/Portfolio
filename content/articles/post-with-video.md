@@ -1,9 +1,11 @@
 ---
-title: "Post with Text"
-description: "This is a post with text"
-alt: "This is a post with text"
-slug: "post-with-text"
+title: "Post with Video"
+description: "This is a post with video"
+alt: "This is a post with video"
+slug: "post-with-video"
 ---
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/noq-ZHTD2Cg" title="The Nuxt big thing in web development?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <div class="text-block">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in est quis
