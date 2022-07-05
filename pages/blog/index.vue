@@ -2,7 +2,7 @@
   <main>
     <Header title="Blog" />
 
-    <div class="post" v-for="article in articles" :key="article.slug">
+    <div class="article" v-for="article in articles" :key="article.slug">
       <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">{{ article.title }}</NuxtLink>
       <p>{{ article.createdAt | date }}</p>
     </div>
@@ -34,22 +34,29 @@ main {
   width: 800px;
 }
 
-.post {
+.article {
   margin-block: 30px;
 }
 
-.post a {
+.article a {
   font-size: 18px;
   color: #000;
   transition: color 0.2s ease-in-out;
 }
 
-.post a:hover {
+.article a:hover {
   color: #00a0d2;
 }
 
-.post p {
+.article p {
   font-size: 16px;
   color: #666;
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+    padding: 0 20px;
+  }
 }
 </style>

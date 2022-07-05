@@ -21,4 +21,15 @@ footer p {
   font-size: 16px;
   color: #666;
 }
+
+@media (max-width: 800px) {
+  footer {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
 </style>

@@ -41,4 +41,10 @@ nav a.nuxt-link-exact-active,
 nav a:hover {
   color: #000;
 }
+
+@media (max-width: 800px) {
+  header {
+    text-align: center;
+  }
+}
 </style>

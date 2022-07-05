@@ -17,10 +17,16 @@ html {
 
 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .text-block {
     margin-block: 30px;
     text-align: justify;
+}
+
+@media (max-width: 800px) {
+    .text-block {
+        font-size: 14px;
+    }
 }

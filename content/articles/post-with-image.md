@@ -1,11 +1,11 @@
 ---
-title: "Post with Text"
-description: "This is a post with text"
-alt: "This is a post with text"
-slug: "post-with-text"
+title: "Post with Image"
+description: "This is a post with image"
+alt: "This is a post with image"
+slug: "post-with-image"
 ---
 
-<h2>This is a post with Text</h2>
+![Image](https://images.unsplash.com/photo-1657031497223-41da5405ef17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
 
 <div class="text-block">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in est quis
