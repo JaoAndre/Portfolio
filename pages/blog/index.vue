@@ -35,7 +35,7 @@ main {
 }
 
 .post {
-  margin-bottom: 30px;
+  margin-block: 30px;
 }
 
 .post a {
