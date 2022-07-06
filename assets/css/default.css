@@ -24,9 +24,3 @@ img {
     margin-block: 30px;
     text-align: justify;
 }
-
-@media (max-width: 800px) {
-    .text-block {
-        font-size: 14px;
-    }
-}
