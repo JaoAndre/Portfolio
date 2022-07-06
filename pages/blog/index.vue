@@ -52,11 +52,4 @@ main {
   font-size: 16px;
   color: #666;
 }
-
-@media (max-width: 800px) {
-  main {
-    width: 100%;
-    padding: 0 20px;
-  }
-}
 </style>
